@@ -104,23 +104,25 @@ function Content() {
       <div className="my-6 md:my-6 flex flex-row mx-0 md:mx-6">
         {PROFILE.MAINBANNER?.map((item) => {
           return (
-            <div className="stats-banner-item flex flex-row align-middle items-center mx-8 md:mx-8 tracking-wider">
-              <div className="text-2xl text-app-yellow font-semibold">
+            <div className="stats-banner-item flex flex-row align-middle items-center ml-4 md:mx-8 tracking-wider">
+              <div className="text-lg md:text-2xl text-app-yellow font-semibold">
                 {item.COUNT}
               </div>
-              <div className="text-base text-white mx-2">{item.NAME}</div>
+              <div className="text-xs md:text-base text-white mx-2">
+                {item.NAME}
+              </div>
             </div>
           );
         })}
       </div>
 
       {/*  Experiance and Education */}
-      <div className="app-history flex flex-col md:flex-row mx-8 md:mx-16 py-6 md:py-10">
+      <div className="app-history flex flex-col md:flex-row mx-4 md:mx-16 py-6 md:py-10">
         <div className="app-eductaion  basis-1/2 flex flex-col">
           <div className="text-xl text-app-yellow tracking-wider font-medium font-Poppins">
             Education
           </div>
-          <div className="overflow-scroll -mx-6 mt-2">
+          <div className="-ml-2 md:-mx-6 mt-2">
             <VerticalTimeline lineColor="#191923" layout="1-column-right">
               {PROFILE.EDUCATION?.map((item) => {
                 return (
@@ -165,10 +167,10 @@ function Content() {
           </div>
         </div>
         <div className="app-eductaion md:basis-1/2 flex flex-col">
-          <div className="text-xl text-app-yellow tracking-wider font-medium font-Poppins ml-6">
+          <div className="text-xl text-app-yellow tracking-wider font-medium font-Poppins ml-1 md:ml-6">
             Work History
           </div>
-          <div className="overflow-scroll">
+          <div className="overflow-scroll -ml-2 md:ml-0">
             <VerticalTimeline lineColor="#191923" layout="1-column-right">
               {PROFILE.EXPERIANCE?.map((item) => {
                 return (
@@ -331,7 +333,7 @@ function Content() {
               <input
                 type="text"
                 id="input-group-1"
-                className="text-gray-900 text-sm md:text-lg focus:outline-none  block w-full md:pl-10 p-4 text-white ml-4 md:ml-10 "
+                className="text-gray-900 text-sm md:text-lg focus:outline-none  block w-full md:pl-10 py-4 pl-12 pr-4  text-white ml-4 md:ml-10 "
                 placeholder="Name"
                 style={{
                   background: "linear-gradient(159deg,#252532 0%,#23232d 100%)",
@@ -351,7 +353,7 @@ function Content() {
               <input
                 type="text"
                 id="input-group-1"
-                className="text-gray-900 text-sm md:text-lg focus:outline-none  block w-full md:pl-10 p-4 text-white ml-4 md:ml-10 "
+                className="text-gray-900 text-sm md:text-lg focus:outline-none  block w-full pl-12 md:pl-10 py-4 pr-4 text-white ml-4 md:ml-10 "
                 placeholder="Email"
                 style={{
                   background: "linear-gradient(159deg,#252532 0%,#23232d 100%)",
@@ -369,7 +371,7 @@ function Content() {
               </div>
               <textarea
                 id="input-group-1"
-                className="text-gray-900 text-lg focus:outline-none  block w-full pl-10 p-4 text-white ml-4 md:ml-10 "
+                className="text-gray-900 text-lg focus:outline-none  block w-full md:pl-10 py-4 text-white ml-4 md:ml-10 "
                 placeholder="Message"
                 rows={4}
                 style={{
