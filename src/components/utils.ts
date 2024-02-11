@@ -3,7 +3,7 @@ export const PROFILE = {
   DESIGNATION: "Software Engineer",
   EMAIL: "bhanu.cheryala9@gmail.com",
   CLGMAIL: "bcheryala@albany.edu",
-  MOBILE: "+1(838)-910-9856",
+  MOBILE: "+1(802)-379-9947",
   AGE: "24 yrs",
   ADDRESS: {
     CITY: "Albany",
