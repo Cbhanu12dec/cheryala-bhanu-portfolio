@@ -1,0 +1,192 @@
+[debug] [2024-02-11T20:11:45.881Z] ----------------------------------------------------------------------
+[debug] [2024-02-11T20:11:45.881Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting:github
+[debug] [2024-02-11T20:11:45.882Z] CLI Version:   13.2.1
+[debug] [2024-02-11T20:11:45.882Z] Platform:      darwin
+[debug] [2024-02-11T20:11:45.882Z] Node Version:  v18.16.0
+[debug] [2024-02-11T20:11:45.887Z] Time:          Sun Feb 11 2024 15:11:45 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-11T20:11:45.887Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-11T20:11:45.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-11T20:11:45.917Z] > authorizing via signed-in user (cheryalabhanu3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/bhanucheryala/Desktop/PERSONAL/MY-PROJECTS/portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-11T20:11:45.919Z] Using project from CLI flag: bhanu-cheryala
+[debug] [2024-02-11T20:11:45.919Z] > refreshing access token with scopes: []
+[debug] [2024-02-11T20:11:45.920Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-11T20:11:45.920Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:11:46.467Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-02-11T20:11:46.468Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:11:46.469Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala [none]
+[debug] [2024-02-11T20:11:46.972Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala 401
+[debug] [2024-02-11T20:11:46.972Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-02-11T20:11:46.973Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-02-11T20:11:47.415Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project bhanu-cheryala. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-02-11T20:12:08.107Z] ----------------------------------------------------------------------
+[debug] [2024-02-11T20:12:08.107Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting:github
+[debug] [2024-02-11T20:12:08.108Z] CLI Version:   13.2.1
+[debug] [2024-02-11T20:12:08.108Z] Platform:      darwin
+[debug] [2024-02-11T20:12:08.108Z] Node Version:  v18.16.0
+[debug] [2024-02-11T20:12:08.109Z] Time:          Sun Feb 11 2024 15:12:08 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-11T20:12:08.109Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-11T20:12:08.135Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-11T20:12:08.135Z] > authorizing via signed-in user (cheryalabhanu3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/bhanucheryala/Desktop/PERSONAL/MY-PROJECTS/portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-11T20:12:08.137Z] Using project from CLI flag: bhanu-cheryala
+[debug] [2024-02-11T20:12:08.137Z] > refreshing access token with scopes: []
+[debug] [2024-02-11T20:12:08.138Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-11T20:12:08.138Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:12:08.593Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-02-11T20:12:08.593Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:12:08.594Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala [none]
+[debug] [2024-02-11T20:12:08.856Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala 401
+[debug] [2024-02-11T20:12:08.857Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-02-11T20:12:08.857Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-02-11T20:12:09.183Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project bhanu-cheryala. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-02-11T20:12:24.274Z] ----------------------------------------------------------------------
+[debug] [2024-02-11T20:12:24.275Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2024-02-11T20:12:24.275Z] CLI Version:   13.2.1
+[debug] [2024-02-11T20:12:24.275Z] Platform:      darwin
+[debug] [2024-02-11T20:12:24.275Z] Node Version:  v18.16.0
+[debug] [2024-02-11T20:12:24.277Z] Time:          Sun Feb 11 2024 15:12:24 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-11T20:12:24.277Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-11T20:12:24.305Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-11T20:12:24.305Z] > authorizing via signed-in user (cheryalabhanu3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/bhanucheryala/Desktop/PERSONAL/MY-PROJECTS/portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-11T20:12:24.307Z] Using project from CLI flag: bhanu-cheryala
+[debug] [2024-02-11T20:12:24.308Z] > refreshing access token with scopes: []
+[debug] [2024-02-11T20:12:24.309Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-11T20:12:24.309Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:12:24.595Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-02-11T20:12:24.596Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:12:24.597Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala [none]
+[debug] [2024-02-11T20:12:24.769Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala 401
+[debug] [2024-02-11T20:12:24.770Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-02-11T20:12:24.770Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-02-11T20:12:24.924Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project bhanu-cheryala. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-02-11T20:12:30.964Z] ----------------------------------------------------------------------
+[debug] [2024-02-11T20:12:30.965Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2024-02-11T20:12:30.965Z] CLI Version:   13.2.1
+[debug] [2024-02-11T20:12:30.965Z] Platform:      darwin
+[debug] [2024-02-11T20:12:30.965Z] Node Version:  v18.16.0
+[debug] [2024-02-11T20:12:30.966Z] Time:          Sun Feb 11 2024 15:12:30 GMT-0500 (Eastern Standard Time)
+[debug] [2024-02-11T20:12:30.966Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-11T20:12:30.992Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-11T20:12:30.993Z] > authorizing via signed-in user (cheryalabhanu3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/bhanucheryala/Desktop/PERSONAL/MY-PROJECTS/portfolio
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-11T20:12:30.994Z] Using project from CLI flag: bhanu-cheryala
+[debug] [2024-02-11T20:12:30.994Z] > refreshing access token with scopes: []
+[debug] [2024-02-11T20:12:30.995Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-11T20:12:30.995Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:12:31.195Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2024-02-11T20:12:31.195Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-11T20:12:31.196Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala [none]
+[debug] [2024-02-11T20:12:31.524Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala 401
+[debug] [2024-02-11T20:12:31.524Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/bhanu-cheryala {"error":{"code":401,"message":"Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.","status":"UNAUTHENTICATED"}}
+[debug] [2024-02-11T20:12:31.524Z] HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2024-02-11T20:12:31.671Z] FirebaseError: HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/usr/local/lib/node_modules/firebase-tools/lib/apiv2.js:292:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project bhanu-cheryala. Please make sure the project exists and your account has permission to access it.
