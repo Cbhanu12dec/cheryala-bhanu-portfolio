@@ -30,7 +30,10 @@ function App() {
               ? "absolute left-0 top-0  z-50 basis-[100%] w-[75%] transition duration-100 ease-in-out"
               : "md:block hidden relative basis-[26%]"
           }`}
-          style={{ boxShadow: "0 3px 8px 0 rgba(15,15,20,.2)" }}
+          style={{
+            boxShadow: "0 3px 8px 0 rgba(15,15,20,.2)",
+            transition: "transition: .55s ease-in-out",
+          }}
         >
           <Profile isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} />
         </div>

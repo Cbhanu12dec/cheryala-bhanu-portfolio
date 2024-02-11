@@ -205,8 +205,11 @@ function Content() {
                     <div className="text-sm text-duration  px-2 md:px-6 italic tracking-wider font-medium">
                       {item.ROLE}
                     </div>
-                    <div className="text-duration mt-6  px-2 md:px-6  text-sm">
-                      {item.INFO}
+                    <div className="flex flex-row justify-between  align-baseline">
+                      <div className="text-duration mt-6  px-2 md:px-6  text-sm">
+                        {item.INFO}
+                      </div>
+                      <div>View</div>
                     </div>
                   </VerticalTimelineElement>
                 );
@@ -371,7 +374,7 @@ function Content() {
               </div>
               <textarea
                 id="input-group-1"
-                className="text-gray-900 text-lg focus:outline-none  block w-full md:pl-10 py-4 text-white ml-4 md:ml-10 "
+                className="text-gray-900 text-lg focus:outline-none  block w-full pl-12 md:pl-10 py-4 text-white ml-4 md:ml-10 "
                 placeholder="Message"
                 rows={4}
                 style={{

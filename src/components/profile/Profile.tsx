@@ -18,7 +18,12 @@ const Profile = (props: ProfileProps) => {
     link.click();
   };
   return (
-    <div className="profile-info max-h-screen relative transition duration-100 ease-in-out">
+    <div
+      className="profile-info max-h-screen relative transition duration-100 ease-in-out"
+      style={{
+        transition: "transition: .55s ease-in-out",
+      }}
+    >
       <div
         className="profile-header px-4 text-center py-10 z-30"
         style={{
@@ -88,7 +93,7 @@ const Profile = (props: ProfileProps) => {
           <div className="flex flex-col justify-center justify-items-center align-middle">
             <Progress
               type="circle"
-              percent={75}
+              percent={95}
               size={"small"}
               strokeColor={"#ffc107"}
             />

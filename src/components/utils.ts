@@ -1,10 +1,10 @@
 export const PROFILE = {
   NAME: "@Bhanu Cheryala",
   DESIGNATION: "Software Engineer",
-  EMAIL: "cheryalabhanu3@gmail.com",
+  EMAIL: "bhanu.cheryala9@gmail.com",
   CLGMAIL: "bcheryala@albany.edu",
   MOBILE: "+1(838)-910-9856",
-  AGE: "23 yrs",
+  AGE: "24 yrs",
   ADDRESS: {
     CITY: "Albany",
     STATE: "New York",
@@ -102,22 +102,28 @@ export const PROFILE = {
   ],
   EXPERIANCE: [
     {
-      NAME: "Sudent Assistanceship",
-      ROLE: "Developer",
-      DURATION: "Aug 2022 - Dec 2023",
-      INFO: "Java, Data Structure, OS, Software Engineer",
+      NAME: "New York State Education Department",
+      ROLE: "Full Stack Web Developer Intern",
+      DURATION: "Aug 2023 - May 2024",
+      INFO: "Vue Js, Spring Boot, Oracle DB, Jenkins, Git, Jira",
+    },
+    {
+      NAME: "University at Albany (SUNY)",
+      ROLE: "Graduate Student Assistant",
+      DURATION: "Aug 2022 - Jan 2023",
+      INFO: "React JS, Mongo DB, Nest JS, Jira, git",
     },
     {
       NAME: "Experian India, Hyderabad",
       ROLE: "Software Engineer",
-      DURATION: "Aug 2022 - Dec 2023",
-      INFO: "Java, Data Structure, OS, Software Engineer",
+      DURATION: "May 2020 - July 2022",
+      INFO: "React Js, Nest Js, Java, Spring Boot, Jenkins, Figma, Jira, Kafka, Cypress, Jest Js.",
     },
     {
       NAME: "Safertek IDC - Hyderabad",
       ROLE: "Full Stack Developer",
       DURATION: "Aug 2022 - Dec 2023",
-      INFO: "Java, Data Structure, OS, Software Engineer",
+      INFO: "Java, Oacle DB, git, Jira",
     },
   ],
   PROJECTS: [
