@@ -23,7 +23,7 @@ export const PROFILE = {
     },
     {
       name: "SPRING SECURITY",
-      proficiency: 90,
+      proficiency: 80,
     },
     {
       name: "JUNIT",
