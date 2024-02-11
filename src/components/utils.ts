@@ -18,6 +18,26 @@ export const PROFILE = {
       proficiency: 90,
     },
     {
+      name: "JAVA SPRINGBOOT",
+      proficiency: 85,
+    },
+    {
+      name: "SPRING SECURITY",
+      proficiency: 90,
+    },
+    {
+      name: "JUNIT",
+      proficiency: 90,
+    },
+    {
+      name: "KARMA",
+      proficiency: 90,
+    },
+    {
+      name: "JAVA",
+      proficiency: 90,
+    },
+    {
       name: "DATA STRUTURE",
       proficiency: 80,
     },
